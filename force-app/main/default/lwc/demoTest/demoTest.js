@@ -1,9 +1,9 @@
 import { LightningElement } from 'lwc';
 
 export default class DemoTest extends LightningElement {
-    firstname;
+    firstne;
     handleclick(event){
-        this.firstname = event.target.value;
-        // Hello Mr.
+        this.firstne = event.target.value;
+        
     }
 }
